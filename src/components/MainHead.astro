@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 const {
-  title = "Eliáš Bencúr: Resume",
+  title = "-Eliáš Bencúr: Resume-",
   description = "Eliáš Bencúr: Resume",
 } = Astro.props;
 ---
@@ -13,3 +13,11 @@ const {
 <title>{title}</title>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+<script>
+  let currentTitle = "- Eliáš Bencúr: Resume -";
+  setInterval(() => {
+    currentTitle = currentTitle.slice(1) + currentTitle[0];
+    document.title = currentTitle;
+  }, 500);
+</script>
