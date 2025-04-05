@@ -29,6 +29,9 @@ importers:
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3
+      wrangler:
+        specifier: ^4.7.2
+        version: 4.7.2(@cloudflare/workers-types@4.20250405.0)
 
 packages:
 

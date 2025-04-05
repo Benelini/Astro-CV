@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "wrangler types && astro dev",
-    "start": "wrangler types && astro dev",
-    "build": "wrangler types && astro check && astro build",
-    "preview": "wrangler types && astro preview",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "@astrojs/sitemap": "^3.1.4",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.8.6",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "wrangler": "^4.7.2"
   }
 }
