@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev": "wrangler types && astro dev",
+    "start": "wrangler types && astro dev",
+    "build": "wrangler types && astro check && astro build",
+    "preview": "wrangler types && astro preview",
     "astro": "astro"
   },
   "dependencies": {
